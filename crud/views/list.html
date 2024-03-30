@@ -1,5 +1,5 @@
 <h1>{{titleList}}</h1>
-<a class="btn btn-info mt-4 mb-4" href="#!/product/add">Thêm mới</a>
+<a class="btn btn-primary  mt-4 mb-4" href="#!/product/add">Thêm mới</a>
 <table class="table table-bordered table-hover ">
     <thead>
         <tr>
@@ -10,15 +10,15 @@
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="item in products">
+        <tr  ng-repeat="item in products">
             <th scope="row">{{ item.id }}</th>
-            <td>{{ item.name }}</td>
+            <td >{{ item.name }}</td>
             <td>{{ item.price }}</td>
             <td>
                 <a class="btn btn-success   " href="#!/product/edit">Cập nhật</a>
-                <a class="btn btn-warning  " href="#!/product/delete">Xóa</a>
+                <a class="btn btn-danger   " href="#!/product/delete">Xóa</a>
             </td>
         </tr>
-    
+
     </tbody>
 </table>
