@@ -12,5 +12,7 @@ window.ProductListController = function ($scope, $http, $location) {
 
     }
     $scope.listProduct();
-   
+    $scope.deleteData = function (id) {
+        console.log(id);
+    }
 }

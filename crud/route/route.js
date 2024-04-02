@@ -8,7 +8,8 @@ angular.module('myController', ['ngRoute']).config(function ($routeProvider) {
     )
     .when(
         '/product/add', {
-        templateUrl: 'views/add.html'
+        templateUrl: 'views/add.html',
+        controller: ProductAddController
     }
     )
     .when(

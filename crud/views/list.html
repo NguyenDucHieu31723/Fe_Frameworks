@@ -15,8 +15,8 @@
             <td >{{ item.name }}</td>
             <td>{{ item.price }}</td>
             <td>
-                <a class="btn btn-success   " href="#!/product/edit">Cập nhật</a>
-                <a class="btn btn-danger   " href="#!/product/delete">Xóa</a>
+                <a class="btn btn-success" href="#!/product/edit">Cập nhật</a>
+                <a class="btn btn-danger" href="#!/product/delete" ng-click="deleteData(item.id)">Xóa</a>
             </td>
         </tr>
 
